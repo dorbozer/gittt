@@ -1,0 +1,148 @@
+
+/* html {
+	padding: env(safe-area-inset);
+}
+html, body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+}
+.row, .container-fluid {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+} */
+
+
+
+.landing {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: table;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, .7);
+}
+.home-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.home-inner {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/home-img.jpg');
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+	display: table;
+}
+
+
+
+
+
+
+
+
+
+
+.landingeee {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: table;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, .7);
+}
+.home-wrapeee {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.home-innereee {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/junior.jpg');
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+	display: table;
+}
+
+
+.landingwww {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: table;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, .7);
+}
+.home-wrapwww {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.home-innerwww {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/tranmautritam.jpg');
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+	display: table;
+}
+
+
+
+
+
+
+/*============= OUR SERVICES SECTION =============*/
+
+
+
+.fixed {
+	position: relative;
+	width: 100%;
+	z-index: 1000 !important;
+}
+
+.fixed-light {
+  background-image: url('../img/junior.jpg');
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: table;
+}
+.light {
+  background-color: rgba(255, 255, 255, .75);
+  padding: 5rem 0;
+  z-index: 1000;
+}
